@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Роджър Федерер • Стил на игра</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="top-strip">
+    <div class="wrap top-strip__inner">
+      <span>ПРОФИЛ НА СЪСТЕЗАТЕЛ</span>
+      <span>Стил на игра</span>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="wrap header__inner">
+      <a class="logo" href="index.html" aria-label="Начало">
+        <span class="logo__mark">ATP</span>
+        <span class="logo__sub">PLAYER</span>
+      </a>
+
+      <nav class="nav" aria-label="Навигация">
+        <a class="nav__link" href="index.html">Преглед</a>
+        <a class="nav__link" href="bio.html">Биография</a>
+        <a class="nav__link" href="achievements.html">Постижения</a>
+        <a class="nav__link is-active" href="playstyle.html">Стил на игра</a>
+        <a class="nav__link" href="gallery.html">Галерия</a>
+        <a class="nav__link" href="facts.html">Интересни факти</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-hero">
+    <div class="wrap">
+      <h1 class="page-title">Стил на игра</h1>
+      <p class="page-desc">
+        Комбинация от прецизност, вариативност и спокойствие. Федерер е известен с изчистена техника,
+        ранен контакт с топката и изключително добра игра в прехода от защита към атака.
+      </p>
+    </div>
+  </div>
+
+  <main class="main">
+    <div class="wrap">
+
+      <section class="section grid-3">
+        <article class="info-card">
+          <h3 class="info-card__title">Ключови елементи</h3>
+          <ul class="bullets">
+            <li><strong>Footwork</strong> и баланс при удар</li>
+            <li>Ранен удар и контрол на темпото</li>
+            <li>Смяна на посоката с минимален замах</li>
+            <li>Вариации със <strong>slice</strong> и къси топки</li>
+          </ul>
+        </article>
+
+        <article class="info-card">
+          <h3 class="info-card__title">Едноръчен бекхенд</h3>
+          <div class="prose">
+            <p>
+              Едноръчният бекхенд е един от най-разпознаваемите му удари.
+              Комбинацията от стабилен topspin и много ефективен <strong>slice</strong> прави този удар
+              универсален – както за защита, така и за подготвяне на атака.
+            </p>
+          </div>
+        </article>
+
+        <article class="info-card">
+          <h3 class="info-card__title">Игра на мрежата</h3>
+          <div class="prose">
+            <p>
+              Федерер често използва <strong>approach shot</strong> и завършва с <strong>volley</strong>,
+              особено когато иска да скъси разиграването. Това е типично за класическия, „естетичен“ тенис стил.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section class="section grid-2">
+        <article class="info-card">
+          <h3 class="info-card__title">Тактика и ритъм</h3>
+          <div class="prose">
+            <p>
+              Един от най-силните му козове е контролът върху ритъма на мача – редува високо темпо
+              с по-бавни, „умни“ топки, които изваждат съперника от комфортната зона.
+            </p>
+            <p>
+              Често печели позиции на корта рано, като поема топката в изкачване, вместо да чака да падне.
+              Така съкращава времето за реакция на противника.
+            </p>
+          </div>
+        </article>
+
+        <article class="info-card">
+          <h3 class="info-card__title">Типични ситуации</h3>
+          <ul class="bullets">
+            <li>Смяна на посоката с форхенд по линията</li>
+            <li><strong>Serve + 1</strong> (силен сервис + контролиращ следващ удар)</li>
+            <li>Къса топка и излизане напред</li>
+            <li>Вариации със <strong>slice</strong> при бекхенд</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section">
+        <div class="info-card">
+          <h3 class="info-card__title">Стил, който се помни</h3>
+          <div class="prose">
+            <p>
+              Федерер често е описван като тенисист, който прави сложното да изглежда лесно.
+              При него ефективността и естетиката вървят заедно – прецизност, лекота и ясна идея във всяко разиграване.
+            </p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <span>© <span id="y"></span> Профил • Roger Federer</span>
+      <span class="footer__muted">Стил на игра</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

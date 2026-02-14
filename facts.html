@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Роджър Федерер • Интересни факти</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="top-strip">
+    <div class="wrap top-strip__inner">
+      <span>ПРОФИЛ НА СЪСТЕЗАТЕЛ</span>
+      <span>Интересни факти</span>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="wrap header__inner">
+      <a class="logo" href="index.html" aria-label="Начало">
+        <span class="logo__mark">ATP</span>
+        <span class="logo__sub">PLAYER</span>
+      </a>
+
+      <nav class="nav" aria-label="Навигация">
+        <a class="nav__link" href="index.html">Преглед</a>
+        <a class="nav__link" href="bio.html">Биография</a>
+        <a class="nav__link" href="achievements.html">Постижения</a>
+        <a class="nav__link" href="playstyle.html">Стил на игра</a>
+        <a class="nav__link" href="gallery.html">Галерия</a>
+        <a class="nav__link is-active" href="facts.html">Интересни факти</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-hero">
+    <div class="wrap">
+      <h1 class="page-title">Интересни факти</h1>
+      <p class="page-desc">
+        Кратки факти, които правят профила по-интересен и „жив“. Тук можеш да добавиш още точки или да замениш текста.
+      </p>
+    </div>
+  </div>
+
+  <main class="main">
+    <div class="wrap">
+
+      <section class="section grid-2">
+        <article class="info-card">
+          <h3 class="info-card__title">Факти за кариерата:</h3>
+          <ul class="bullets">
+            <li>Федерер има <strong>20 Grand Slam</strong> титли на сингъл.</li>
+            <li>Най-високият му ранкинг е <strong>№1</strong> (2004.02.02).</li>
+            <li>Има <strong>103 ATP</strong> титли на сингъл.</li>
+            <li>Печели <strong>олимпийско злато</strong> на двойки (2008).</li>
+            <li>Печели <strong>олимпийско сребро</strong> на сингъл (2012).</li>
+          </ul>
+        </article>
+
+        <article class="info-card">
+          <h3 class="info-card__title">Стил и характер:</h3>
+          <ul class="bullets">
+            <li>Известен е с „тиха“ увереност и хладнокръвие в ключови моменти.</li>
+            <li>Едноръчният бекхенд е сред най-разпознаваемите удари в тениса.</li>
+            <li>Комбинира ефективност и естетика — играта му често е наричана „класика“.</li>
+            <li>Вариативността (slice, смяна на темпо, игра на мрежата) е негова запазена марка.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section">
+        <div class="info-card">
+          <h3 class="info-card__title">По-лично:</h3>
+          <ul class="bullets">
+            <li>Извън корта Роджър Федерер е известен с това, че обича спокойствието и семейството си.
+                Той е женен за Мирка (бивша тенисистка), а двамата имат четири деца – две двойки близнаци.</li>
+            <li>Федерер е свързан с Rolex от години като посланик на марката – партньорство, което често се споменава
+                като символ на прецизност, стил и постоянство – качества, които се виждат и в играта му.</li>
+            <li>Като дете Федерер е бил много емоционален на корта, но с времето изгражда спокойния
+                стил и самоконтрол, които днес са част от неговия образ. Именно тази промяна много хора посочват като
+                ключ към дългия му успех.</li>
+          </ul>
+  </p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <span>© <span id="y"></span> Профил • Roger Federer</span>
+      <span class="footer__muted">Интересни факти</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

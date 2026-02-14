@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Роджър Федерер • Галерия</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="top-strip">
+    <div class="wrap top-strip__inner">
+      <span>ПРОФИЛ НА СЪСТЕЗАТЕЛ</span>
+      <span>Галерия</span>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="wrap header__inner">
+      <a class="logo" href="index.html" aria-label="Начало">
+        <span class="logo__mark">ATP</span>
+        <span class="logo__sub">PLAYER</span>
+      </a>
+
+      <nav class="nav" aria-label="Навигация">
+        <a class="nav__link" href="index.html">Преглед</a>
+        <a class="nav__link" href="bio.html">Биография</a>
+        <a class="nav__link" href="achievements.html">Постижения</a>
+        <a class="nav__link" href="playstyle.html">Стил на игра</a>
+        <a class="nav__link is-active" href="gallery.html">Галерия</a>
+        <a class="nav__link" href="facts.html">Интересни факти</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-hero">
+    <div class="wrap">
+      <h1 class="page-title">Галерия</h1>
+      <p class="page-desc">
+        Любими изображения, които радват фенове (най-вече Анна Радева).
+      </p>
+    </div>
+  </div>
+
+  <main class="main">
+    <div class="wrap">
+      <section class="section">
+        <div class="info-card">
+          <h3 class="info-card__title">Снимки</h3>
+          <div class="prose">
+            <p>
+              
+            </p>
+          </div>
+
+          <div class="gallery-grid" style="margin-top:12px">
+            <figure class="gallery-item">
+              <img src="play.jpg" alt="Галерия 1 (замени)" />
+              <figcaption>Момент от мач</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <img src="win.jpg" alt="Галерия 2 (замени)" />
+              <figcaption>Победа и емоция</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <img src="grass.jpg" alt="Галерия 3 (замени)" />
+              <figcaption>На тревата</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <img src="trophy.jpg" alt="Галерия 4 (замени)" />
+              <figcaption>Трофей</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+              <img src="classic.webp" alt="Галерия 5 (замени)" />
+              <figcaption>Класически удар</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <img src="serve.jpg" alt="Галерия 6 (замени)" />
+              <figcaption>Сервис</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <img src="meet.jpg" alt="Галерия 7 (замени)" />
+              <figcaption>Събитие</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <img src="fans.jpg" alt="Галерия 8 (замени)" />
+              <figcaption>Снимка с фенове</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <span>© <span id="y"></span> Профил • Roger Federer</span>
+      <span class="footer__muted">Галерия</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

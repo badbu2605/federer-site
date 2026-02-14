@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Роджър Федерер • Биография</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="top-strip">
+    <div class="wrap top-strip__inner">
+      <span>ПРОФИЛ НА СЪСТЕЗАТЕЛ</span>
+      <span>Биография</span>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="wrap header__inner">
+      <a class="logo" href="index.html" aria-label="Начало">
+        <span class="logo__mark">ATP</span>
+        <span class="logo__sub">PLAYER</span>
+      </a>
+
+      <nav class="nav" aria-label="Навигация">
+        <a class="nav__link" href="index.html">Преглед</a>
+        <a class="nav__link is-active" href="bio.html">Биография</a>
+        <a class="nav__link" href="achievements.html">Постижения</a>
+        <a class="nav__link" href="playstyle.html">Стил на игра</a>
+        <a class="nav__link" href="gallery.html">Галерия</a>
+        <a class="nav__link" href="facts.html">Интересни факти</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-hero">
+    <div class="wrap">
+      <h1 class="page-title">Биография</h1>
+      <p class="page-desc">
+        Подреден разказ за пътя на Роджър Федерер – от ранните години до статута му на символ на класа и постоянство в тениса.
+      </p>
+    </div>
+  </div>
+
+  <main class="main">
+    <div class="wrap">
+
+      <section class="section grid-2">
+        <article class="info-card">
+          <h3 class="info-card__title">Ранни години</h3>
+          <div class="prose">
+            <p>
+              Роджър Федерер е роден на <strong>8 август 1981 г.</strong> в <strong>Базел, Швейцария</strong>.
+              Още като юноша се отличава с изключителна координация и усет към играта.
+            </p>
+            <p>
+              Професионалният му път започва през <strong>1998 г.</strong>, а развитието му в следващите години го извежда
+              до върха на световния тенис.
+            </p>
+          </div>
+        </article>
+
+        <article class="info-card">
+          <h3 class="info-card__title">Профил на състезателя</h3>
+          <ul class="bullets">
+            <li><strong>Ръст:</strong> 185 cm (6'1")</li>
+            <li><strong>Тегло:</strong> 85 kg (187 lbs)</li>
+            <li><strong>Играе:</strong> десничар, едноръчен бекхенд</li>
+            <li><strong>Професионалист от:</strong> 1998</li>
+          </ul>
+          <div class="prose" style="margin-top:10px">
+            <p>
+              Комбинацията от техника, движение и разнообразие в ударите се превръща в негова „визитка“ на корта.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section class="section">
+        <div class="info-card">
+          <h3 class="info-card__title">Ключови моменти (накратко)</h3>
+
+          <table class="table" aria-label="Хронология">
+            <thead>
+              <tr>
+                <th>Година/Дата</th>
+                <th>Събитие</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1998</td>
+                <td>Става професионалист.</td>
+              </tr>
+              <tr>
+                <td>2004.02.02</td>
+                <td>Достига №1 в световната ранглиста (career high rank).</td>
+              </tr>
+              <tr>
+                <td>1998–2022</td>
+                <td>Период на професионална кариера.</td>
+              </tr>
+              <tr>
+                <td>2022</td>
+                <td>Последно участие в официален мач (финалният му период е свързан с Laver Cup).</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="prose" style="margin-top:12px">
+            <p>
+              Най-голямата сила на Федерер не е само в титлите, а и в начина, по който играта му променя представата
+              за „естетика“ и ефективност в тениса – спокойствие, точност и интелигентна стратегия.
+            </p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <span>© <span id="y"></span> Профил • Roger Federer</span>
+      <span class="footer__muted">Биография</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Роджър Федерер • Постижения</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="top-strip">
+    <div class="wrap top-strip__inner">
+      <span>ПРОФИЛ НА СЪСТЕЗАТЕЛ</span>
+      <span>Постижения</span>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="wrap header__inner">
+      <a class="logo" href="index.html" aria-label="Начало">
+        <span class="logo__mark">ATP</span>
+        <span class="logo__sub">PLAYER</span>
+      </a>
+
+      <nav class="nav" aria-label="Навигация">
+        <a class="nav__link" href="index.html">Преглед</a>
+        <a class="nav__link" href="bio.html">Биография</a>
+        <a class="nav__link is-active" href="achievements.html">Постижения</a>
+        <a class="nav__link" href="playstyle.html">Стил на игра</a>
+        <a class="nav__link" href="gallery.html">Галерия</a>
+        <a class="nav__link" href="facts.html">Интересни факти</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-hero">
+    <div class="wrap">
+      <h1 class="page-title">Постижения</h1>
+      <p class="page-desc">
+        Най-важните числа от кариерата: титли, баланс W–L, Grand Slam успехи и олимпийски медали.
+      </p>
+    </div>
+  </div>
+
+  <main class="main">
+    <div class="wrap">
+
+      <section class="section grid-3">
+        <div class="info-card">
+          <h3 class="info-card__title">Grand Slam (сингъл)</h3>
+          <ul class="bullets">
+            <li><strong>Общо:</strong> 20</li>
+            <li><strong>Australian Open:</strong> 6</li>
+            <li><strong>Roland-Garros:</strong> 1</li>
+            <li><strong>Wimbledon:</strong> 8</li>
+            <li><strong>US Open:</strong> 5</li>
+          </ul>
+        </div>
+
+        <div class="info-card">
+          <h3 class="info-card__title">ATP кариера (ключови числа)</h3>
+          <ul class="bullets">
+            <li><strong>Титли (сингъл):</strong> 103</li>
+            <li><strong>W–L:</strong> 1251–275</li>
+            <li><strong>Най-висок ранкинг:</strong> №1 (2004.02.02)</li>
+            <li><strong>Наградни фондове (общо):</strong> $130,594,339</li>
+          </ul>
+        </div>
+
+        <div class="info-card">
+          <h3 class="info-card__title">Олимпийски медали</h3>
+          <ul class="bullets">
+            <li><strong>Злато:</strong> 2008 (мъже – двойки)</li>
+            <li><strong>Сребро:</strong> 2012 (мъже – сингъл)</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="info-card">
+          <h3 class="info-card__title">Разбивка на Grand Slam титлите</h3>
+          <table class="table" aria-label="Grand Slam таблица">
+            <thead>
+              <tr>
+                <th>Турнир</th>
+                <th>Титли</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Australian Open</td><td>6</td></tr>
+              <tr><td>Roland-Garros</td><td>1</td></tr>
+              <tr><td>Wimbledon</td><td>8</td></tr>
+              <tr><td>US Open</td><td>5</td></tr>
+              <tr><td><strong>Общо</strong></td><td><strong>20</strong></td></tr>
+            </tbody>
+          </table>
+
+          <div class="prose" style="margin-top:12px">
+            <p>
+              Успехите му на различни настилки (твърда, трева, клей) показват рядка универсалност в историята на тениса.
+            </p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <span>© <span id="y"></span> Профил • Roger Federer</span>
+      <span class="footer__muted">Постижения</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
